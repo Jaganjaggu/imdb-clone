@@ -1,0 +1,45 @@
+.star-button{
+    margin-left: 20px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    
+}
+.star-button:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+.card-body{
+    background-color: rgb(28, 27, 27);
+}
+
+.card-button{
+    background-color: rgb(40, 40, 40);
+    border-color: rgb(53, 53, 53);
+    margin-top: 20px;
+}
+
+.card-button:hover{
+    background-color: rgb(53, 53, 53);
+    border-color: rgb(53, 53, 53);
+    
+}
+.card-flexing{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recent-card{
+display: flex;
+
+}
+
+@media (max-width: 800px) {
+    .card-flexing{
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
+    .recent-card{
+        justify-content: center;
+    }
+}

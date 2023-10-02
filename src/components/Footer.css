@@ -1,0 +1,23 @@
+.icons svg{
+    margin: 25px 15px;
+}
+.footer-link-space div{
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.footer-link-space{
+    display: flex;
+    flex-wrap: nowrap   ;
+    justify-content: center;
+}
+
+@media (max-width: 700px){
+    .footer-link-space{
+        display: block;
+        flex-wrap: wrap;
+    }
+}
